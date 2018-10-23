@@ -11,6 +11,19 @@ function OpenNERDTree()
 endfunction
 command -nargs=0 OpenNERDTree :call OpenNERDTree()
 
+" Better command-line completion
+set wildmenu
+ 
+" Show partial commands in the last line of the screen
+set showcmd
+ 
+" Highlight searches (use <C-L> to temporarily turn off highlighting; see the
+" mapping of <C-L> below)
+set hlsearch
+
+" Enable use of the mouse for all modes
+set mouse=a
+
 nmap <A-t> OpenNERDTree<CR>
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
