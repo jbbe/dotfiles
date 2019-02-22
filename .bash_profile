@@ -1,11 +1,13 @@
 #export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n|---> "
+# export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n|---> "
+export PS1="(\u)~>"
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
 alias ls='ls -GFh'
 alias cd370='cd Documents/Fall18/370'
 export EDITOR=/usr/bin/vim
 alias ..='cd ../'
+alias cd.='cd ..'
 #function color_prompt {
 #	git_stat="$(git status 2> /dev/null)"
 #
