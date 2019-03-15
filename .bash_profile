@@ -1,10 +1,21 @@
 #export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n|---> "
+# export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n|---> "
+export PS1="(\u)~>"
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
 alias ls='ls -GFh'
-alias cd370='cd Documents/Fall18/370'
-export EDITOR=/usr/bin/vim
+alias lsa = 'ls -a -l'
+# alias cd370='cd Documents/Fall18/370'
+alias cd485='cd Documents/w19/485'
+alias cd388='cd Documents/w19/388'
+alias weather='curl wttr.in'
+alias fuck='sudo !!'
+#alias vimt ='vim -c "Nerdtree" $1'
+alias cd.='cd ..'
+alias CD ='cd'
+alias LS='ls -GFh'
+
+#export EDITOR=/usr/bin/vim
 alias ..='cd ../'
 #function color_prompt {
 #	git_stat="$(git status 2> /dev/null)"

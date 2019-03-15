@@ -1,0 +1,27 @@
+Python
+id like &
+
+star wars
+	telnet towel.blinkenlights.nl
+linux 
+uname -a system info
+ip addr show
+ifconfig
+df disk free
+
+finding files:
+find . -iname '[filename]'
+locate [filename]
+	"to search across hardrive
+grep
+	-i case insensitive 
+	-r recursive
+	git grep will only search through committed files
+ag for silver searcher (chem)
+	quickly searches for all files in directory
+	much faster than grep
+cd -
+	to go back to last directory
+pushd / popd
+	mkae a directory stack
+
