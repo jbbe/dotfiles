@@ -1,0 +1,4 @@
+vundle
+:PluginSearch
+:PluginInstall
+:PluginClean
