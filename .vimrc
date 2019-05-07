@@ -1,4 +1,6 @@
 set nocompatible              " be iMproved, required
+set relativenumber
+set nu
 set number
 set tabstop=4
 set shiftwidth=4
@@ -28,24 +30,24 @@ set hlsearch
 " Enable use of the mouse for all modes
 set mouse=a
 
-nmap <A-t> OpenNERDTree<CR>
-
+"nmap <A-t> OpenNERDTree<CR>
+so ~/.vim/plugins.vim
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 " call vundle#begin('~/some/path/here')
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+"Plugin 'VundleVim/Vundle.vim'
 "Plugin 'vim-syntastic/syntastic'
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree'
 "Plugin 'lervag/vimtex'
 " autocmd vimenter * NERDTree
-nmap <F6> :NERDTreeToggle<CR>
+"nmap <F6> :NERDTreeToggle<CR>
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+"call vundle#end()            " required
+"filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -57,3 +59,9 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
