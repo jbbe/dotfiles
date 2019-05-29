@@ -76,3 +76,4 @@ wnet() {
 
 export PATH="/usr/local/sbin:$PATH"
 export PATH+="/Users/joanna/Library/Python/3.7/bin"
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
