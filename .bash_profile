@@ -11,12 +11,16 @@ alias ..='cd ../'
 alias cd.='cd ..'
 alias lsa='ls -aGFh'
 alias LS='ls'
-alias fuck='sudo !!'
 alias CD='cd'
 alias gs='git status | lolcat'
 alias intinfo='curl httpbin.org/anything'
 alias brewup='brew update; brew upgrade; brew cleanup --prune-prefix; brew cleanup; brew doctor'
 
+#alias fuck='sudo !!'
+alias fucking='sudo'
+eval $(thefuck --alias)
+eval $(thefuck --alias fuck)
+#alias go='!!'
 # Wnet funcs
 wnoun() {
     wn $1 -synsn 
@@ -75,5 +79,5 @@ wnet() {
 
 
 export PATH="/usr/local/sbin:$PATH"
-export PATH+="/Users/joanna/Library/Python/3.7/bin"
+export PATH="/Users/joanna/Library/Python/3.7/bin:$PATH"
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
