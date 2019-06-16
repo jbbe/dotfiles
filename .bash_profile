@@ -17,6 +17,7 @@ alias LS='ls -GFh'
 
 #export EDITOR=/usr/bin/vim
 alias ..='cd ../'
+alias cd.='cd ..'
 #function color_prompt {
 #	git_stat="$(git status 2> /dev/null)"
 #
