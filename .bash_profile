@@ -1,7 +1,4 @@
-#export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-#export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n|---> "
-export PS1="~>"
-#export PS1="(\u)~>"
+export PS1="(\u)~>"
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
 alias ls='ls -GFh'
@@ -79,5 +76,4 @@ wnet() {
 
 
 export PATH="/usr/local/sbin:$PATH"
-export PATH="/Users/joanna/Library/Python/3.7/bin:$PATH"
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
