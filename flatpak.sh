@@ -1,4 +1,6 @@
 #!/bin/sh
+
+# Install flatpak and gnome builder
 apt update && apt upgrade
 apt install flatpak
 apt install gnome-software-plugin-flatpak

@@ -1,3 +1,62 @@
+***********************************
+Linux
+
+du -hcs .??** | sort -n
+fc 
+    edit last command in editor then run when saving
+disown -a && exit
+    keep processes running after terminal closes
+rev 
+    reverses bash input
+yes
+    prints out y
+blkid
+    locate /print block device atrributes
+lolcat fun colors
+fignet BIG
+cowsay
+
+tail 
+    prints end of file
+ctr-l 
+    clears terminal
+
+***********************************
+Mac
+ipconfig getpacket en0
+
+open
+networksetup
+lsof 
+    list open files
+lsof -i 
+    lists open internet ports
+osascript -e 'tell application "AppName" to quit'
+osascript -e 'tell application "Finder" to sleep'
+pbpaste | script.sh |pbcopy
+sw_vers
+    current software version (os)
+scutil --dns
+    dns resolution hierarchy
+echo {x..y}
+    print series
+diskutil secureErase freespace 3 /Volumes/name-of-drive
+
+*************************************
+vim 
+search for foo and replace with bar
+:%s foo/bar/g
+:hlsearch
+    highlight search
+:!unix_command
+:r!unix_command
+    puts output directly into doc
+    
+Thu Mar 21 13:04:08 EDT 2019
+vundle
+:PluginSearch
+:PluginInstall
+:PluginClean
 vundle
 :PluginSearch
 :PluginInstall
