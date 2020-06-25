@@ -23,8 +23,12 @@ ctr-l
 
 ***********************************
 Mac
+
+https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
+
 ipconfig getpacket en0
 
+add ~/.hushlogin to supress status message at login
 open
 networksetup
 lsof 
@@ -61,3 +65,7 @@ vundle
 :PluginSearch
 :PluginInstall
 :PluginClean
+
+*************************************
+React
+npx create-react-app my-app --typescript

@@ -1,2 +1,5 @@
 alias cd.="cd .."
 alias lsa="ls -a"
+alias ip="ifconfig | grep inet | lolcat"
+alias gs="git status | lolcat"
+alias lc="lolcat"
