@@ -48,6 +48,7 @@ diskutil secureErase freespace 3 /Volumes/name-of-drive
 
 *************************************
 vim 
+
 search for foo and replace with bar
 :%s foo/bar/g
 :hlsearch
@@ -68,4 +69,12 @@ vundle
 
 *************************************
 React
+
 npx create-react-app my-app --typescript
+
+
+*************************************
+C#
+brew cask install dotnet-sdk 
+install vscode extension
+right click to build
