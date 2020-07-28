@@ -71,6 +71,7 @@ vundle
 React
 
 npx create-react-app my-app --typescript
+npx nano-react-app my-app --ts
 
 
 *************************************
@@ -78,3 +79,13 @@ C#
 brew cask install dotnet-sdk 
 install vscode extension
 right click to build
+
+nah just use visual studio
+
+
+*************************************
+adb
+
+adb tcpip 5555
+adb connect <ip>:5555
+

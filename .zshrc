@@ -12,6 +12,6 @@ zstyle ':vcs_info:git:*' formats "%F{cyan}%b %"
 setopt PROMPT_SUBST
 
 # Use 240 for nice gray
-PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{magenta}%1~%f%b ${vcs_info_msg_0_} %# '
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{magenta}%1~%f%b ${vcs_info_msg_0_} %F{yellow} %# '
 source ~/dotfiles/.alias
 # zprof # bottom of .zshrc
