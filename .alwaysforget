@@ -1,6 +1,12 @@
 ***********************************
 Linux
 
+grep -r "pattern" .
+^ to search everything recursively 
+grep -v "Exclude lines with this"
+grep -v -e  "Exclude this" -e "and this"
+grep -Ev  "Exclude this|and this"
+
 du -hcs .??** | sort -n
 fc 
     edit last command in editor then run when saving
@@ -20,6 +26,8 @@ tail
     prints end of file
 ctr-l 
     clears terminal
+
+ ./cmd || {echo 'Build failed:(' ; exit 1;}
 
 ***********************************
 Mac
@@ -46,6 +54,10 @@ echo {x..y}
     print series
 diskutil secureErase freespace 3 /Volumes/name-of-drive
 
+zsh slow --> rm log files 
+sudo rm -rf /private/var/log/asl/*.asl
+
+xcode cl tools --> add instrs
 *************************************
 vim 
 
@@ -89,3 +101,4 @@ adb
 adb tcpip 5555
 adb connect <ip>:5555
 
+when debuggin an api make sure you're looking at a instance that's correct.
