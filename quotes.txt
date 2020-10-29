@@ -91,4 +91,6 @@ all the anger and the eloquence are bleeding into fear. — counting crows dayli
 â William Shakespeare, The Merry Wives of Windsor 
 in JavaScript, there is a beautiful, elegant, highly expressive language that is buried under a steaming pile of good intentions and blunders. T 
 
+In short, instead of seeing build systems as unrelated points in space, we now see them as locations in a connected landscape, leading to a better understanding of what they do and how they compare, and suggesting exploration of other (as yet unoccupied points) in the landscape.  -- build systems a la carte
 
+It's important to expose the right extension points so modularity empowers instead of crippling. We're not there yet, but we're close. --dan abramov

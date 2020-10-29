@@ -29,6 +29,15 @@ ctr-l
 
  ./cmd || {echo 'Build failed:(' ; exit 1;}
 
+ netstat 
+    shows all open tcp sockets
+
+git adding origin with unrelated histories 
+    git pull orign master --allow-unrelated-histories
+
+list lines of code in repo
+git ls-files | xargs wc -l 
+
 ***********************************
 Mac
 
@@ -58,6 +67,9 @@ zsh slow --> rm log files
 sudo rm -rf /private/var/log/asl/*.asl
 
 xcode cl tools --> add instrs
+
+sudo lsof -i -n -P | grep TCP 
+Check what ports are runnign ^^
 *************************************
 vim 
 
@@ -94,6 +106,8 @@ right click to build
 
 nah just use visual studio
 
+compile for native target
+    dotnet build --runtime ubuntu.18.04-x64 
 
 *************************************
 adb
@@ -102,3 +116,26 @@ adb tcpip 5555
 adb connect <ip>:5555
 
 when debuggin an api make sure you're looking at a instance that's correct.
+
+*************************************
+js
+
+Reserved Words: 
+abstract boolean break byte case catch char class const continue
+ debugger default delete do double else enum export extends false final
+ finally float for
+ function goto if implements import in instanceof int interface long native new null
+ package private protected public return short static super switch synchronized this
+ throw throws transient true try typeof var volatile void while with
+
+
+function isNumber(value) { return typeof value === 'number' && isFinite(value);
+}
+
+NaN === NaN // false NaN !== NaN // true
+
+process.nextTick() ensures that a callback is invoked asynchronously
+
+vscode
+*************************************
+cycle windows -- shift + cmd + ~
