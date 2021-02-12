@@ -1,6 +1,9 @@
 ***********************************
 Linux
 
+awk '{printf "\"%s\", ", $0}' <file>
+// to quote up and get in a list
+
 grep -r "pattern" .
 ^ to search everything recursively 
 grep -v "Exclude lines with this"
@@ -28,6 +31,8 @@ ctr-l
     clears terminal
 
  ./cmd || {echo 'Build failed:(' ; exit 1;}
+
+for file in *; do mv "$file" `echo $file | tr ' ' '_'` ; done
 
  netstat 
     shows all open tcp sockets
@@ -97,6 +102,8 @@ React
 npx create-react-app my-app --typescript
 npx nano-react-app my-app --ts
 
+if you're getting the type for a style thats supposed to be CSSProperty
+just add as React.CSSProperty after the object def.
 
 *************************************
 C#
@@ -135,6 +142,10 @@ function isNumber(value) { return typeof value === 'number' && isFinite(value);
 NaN === NaN // false NaN !== NaN // true
 
 process.nextTick() ensures that a callback is invoked asynchronously
+
+npm will run scripts of pattern pre* and post* for script * before and after script automatically.
+
+router order matters.
 
 vscode
 *************************************

@@ -94,3 +94,39 @@ in JavaScript, there is a beautiful, elegant, highly expressive language that is
 In short, instead of seeing build systems as unrelated points in space, we now see them as locations in a connected landscape, leading to a better understanding of what they do and how they compare, and suggesting exploration of other (as yet unoccupied points) in the landscape.  -- build systems a la carte
 
 It's important to expose the right extension points so modularity empowers instead of crippling. We're not there yet, but we're close. --dan abramov
+
+Then I read this by David Rousset in his blog Dans ma Bulle, he wrote in French (I have an English translation below):
+
+    We tend to believe that we all live on the same planet, but rather I feel like we are actually each living in a bubble hosted in the same place. These bubbles can sometimes become entangled or contained within each other and sometimes are, fortunately or unfortunately, completely isolated from the others. It is then almost as if we are living in parallel universes. We could glimpse some in the distance, a little blurry, without entering into interactions with them.
+
+Be liberal with what you learn, and conservative with what you use. -- Dan Abramov
+
+
+i believe in incidence
+he who fucks nuns will later join the church
+Those at ease have contempt for misfortune,
+for the blow that strikes somebody already staggering.
+6 The tents of robbers prosper,
+
+I wish you would just stay silent;
+for you, that would be wisdom!
+
+“So be quiet! Let me be! I’ll do the talking,
+come on me what may!
+14 Why am I taking my flesh in my teeth,
+taking my life in my hands?
+15 Look, he will kill me — I don’t expect more,
+but I will still defend my ways to his face.
+16 And this is what will save me —
+that a hypocrite cannot appear before him.
+
+With friends like these as intercessors,
+my eyes pour out tears to God,
+21 that he would arbitrate between a man and God,
+just as one does for his fellow human being.
+22 For I have but few years left
+before I leave on the road of no return
+-job
+
+he who learns must suffer, and even in our sleep pain that cannot forgot falls drop by drop upon the heart.
+-aeschylus

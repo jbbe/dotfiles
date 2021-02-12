@@ -1,12 +1,14 @@
 # zmodload zsh/zprof # top of your .zshrc file
 eval $(thefuck --alias)
 
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 source /usr/local/share/antigen/antigen.zsh
+
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 antigen bundle git
-antigen bundle heroku
-antigen bundle pip
+# antigen bundle heroku
+# antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
 
@@ -42,5 +44,5 @@ source ~/dotfiles/.alias
 # zprof # bottom of .zshrc
 
 # opam configuration
-test -r /Users/jbbe/.opam/opam-init/init.zsh && . /Users/jbbe/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# test -r /Users/jbbe/.opam/opam-init/init.zsh && . /Users/jbbe/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
